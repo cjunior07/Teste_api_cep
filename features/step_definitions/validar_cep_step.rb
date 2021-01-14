@@ -8,6 +8,7 @@ end
 
 Entao("o campo IBGE com {string}") do |cod_ibge|
   expect(@response_teste['ibge']).to eql(cod_ibge)
+  puts "Código do IBGE: #{@response_teste['ibge']}"
 end
 
 Entao("valido o retorno de erro") do
