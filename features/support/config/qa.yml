@@ -1,0 +1,6 @@
+ambiente: QA
+
+urls:
+  url_trello: https://api.trello.com
+  url_busca_cep: https://viacep.com.br/ws
+ 
